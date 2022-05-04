@@ -30,7 +30,7 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner, reverse
           {showBtn && (
             <Button
               assetUrl={assets.expo}
-              link="" />
+              link="https://expo.dev/@denisa14/nft_mobile_app_r_native?serviceeType=classic&distribution=expo-go" />
           )}
         </div>
 
