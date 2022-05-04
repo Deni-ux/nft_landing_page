@@ -18,7 +18,8 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner}) => {
 
           {showBtn && (
             <Button
-              assetsUrl={assets.expo} />
+              assetUrl={assets.expo}
+              link="" />
           )}
         </div>
     </div>
