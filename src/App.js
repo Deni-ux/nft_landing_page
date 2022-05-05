@@ -38,8 +38,14 @@ const App = () => {
       <Download />
 
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>An exciting learning and building process by {" "}
-          <span className="bold">Denisa Haka</span>
+        <p className={`${styles.pText} ${styles.whiteText}`}>
+          An exciting learning and building process by{" "}
+          <span
+            className="bold cursor-pointer"
+            onClick={() => window.open("https://github.com/Deni-ux", "_blank")}
+          >
+            Denisa Haka
+          </span>
         </p>
       </div>
     </>

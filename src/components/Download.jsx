@@ -15,7 +15,7 @@ const Download = () => {
           <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on GitHub</p>
         </div>
 
-        <button className={styles.btnPrimary}>Source code</button>
+        <button className={`${styles.btnPrimary} cursor-pointer`} onClick={() => window.open("https://github.com/Deni-ux/nft_landing_page", "_blank")}>Source code</button>
         
         <div className={styles.flexCenter}>
           <img src={assets.scene} alt='full app scene' className={styles.fullImg} />
